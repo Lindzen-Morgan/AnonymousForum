@@ -1,9 +1,16 @@
-﻿public class ForumThread
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+public class ForumThread
 {
     public int Id { get; set; }
-    public string Title { get; set; }
-    public string Text { get; set; }
-    public DateTime DateCreated { get; set; }
-    //adding other properties as expand
 
+    [Required]
+    public string Title { get; set; }
+
+    [Required]
+    public string Text { get; set; }
+
+    [DataType(DataType.Date)]
+    public DateTime DateCreated { get; set; }
 }

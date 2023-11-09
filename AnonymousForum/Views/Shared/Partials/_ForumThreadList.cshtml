@@ -1,0 +1,8 @@
+﻿@model List<ForumThread>
+
+<ul>
+    @foreach (var thread in Model)
+    {
+        <li>@thread.Title</li>
+    }
+</ul>
