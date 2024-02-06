@@ -1,0 +1,9 @@
+﻿@model List<AnonymousForum.Models.Topic>
+
+<h1>Topics</h1>
+<ul>
+    @foreach (var topic in Model)
+    {
+        <li><a asp-controller="Thread" asp-action="Index" asp-route-topicId="@topic.Id">@topic.Name</a></li>
+    }
+</ul>
