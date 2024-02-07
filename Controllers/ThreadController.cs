@@ -50,5 +50,20 @@ namespace AnonymousForum.Controllers
             // If the model state is not valid, return the view with validation errors
             return View(thread);
         }
+        //action method to display Details within a thread
+        public IActionResult Details(int id)
+        {
+            // Retrieve the thread from the database based on its id
+            var thread = _context.Threads
+                .Include(t => t.Replies) // Include replies associated with the thread
+                .FirstOrDefault(t => t.Id == id);
+
+            if (thread == null)
+            {
+                return NotFound(); // Return 404 Not Found if the thread is not found
+            }
+
+            return View(thread); // Pass the thread to the view
+        }
     }
 }

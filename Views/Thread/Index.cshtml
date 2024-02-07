@@ -8,7 +8,7 @@
     <ul>
         @foreach (var thread in Model)
         {
-            <li>@thread.Title</li>
+            <li><a asp-action="Details" asp-controller="Thread" asp-route-id="@thread.Id">@thread.Title</a></li>
         }
     </ul>
 }
