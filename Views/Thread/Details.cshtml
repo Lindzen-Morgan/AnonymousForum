@@ -26,3 +26,13 @@ else
 {
     <p>No replies yet.</p>
 }
+
+<h2>Post a Reply</h2>
+
+<form asp-action="PostReply" asp-controller="Thread" method="post">
+    <div class="form-group">
+        <label for="replyContent">Reply Content:</label>
+        <textarea class="form-control" id="replyContent" name="content" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Reply</button>
+</form>
