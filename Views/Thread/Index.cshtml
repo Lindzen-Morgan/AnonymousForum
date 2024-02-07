@@ -1,5 +1,10 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<AnonymousForum.Models.Thread>
+
+<h1>Threads</h1>
+
+<ul>
+    @foreach (var thread in Model)
+    {
+        <li>@thread.Title</li>
+    }
+</ul>
