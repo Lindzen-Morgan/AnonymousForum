@@ -65,5 +65,31 @@ namespace AnonymousForum.Controllers
 
             return View(thread); // Pass the thread to the view
         }
+        //Action method to hjandlee the submission of replies
+        [HttpPost]
+        public IActionResult PostReply(int threadId, string content)
+        {
+            if (ModelState.IsValid)
+            {
+                var thread = _context.Threads.Include(t => t.Replies).FirstOrDefault(t => t.Id == threadId);
+                if (thread == null)
+                {
+                    return NotFound(); // Return 404 Not Found if the thread is not found
+                }
+
+                var reply = new Reply
+                {
+                    Content = content,
+                };
+
+                thread.Replies.Add(reply);
+                _context.SaveChanges();
+
+                // Redirect to the thread details page after posting the reply
+                return RedirectToAction("Details", new { id = threadId });
+            }
+            //Return to details views
+            return View("Details", threadId);
+        }
     }
 }
