@@ -1,0 +1,28 @@
+﻿@model AnonymousForum.Models.Thread
+
+<h1>@Model.Title</h1>
+
+<div>
+    <p>@Model.Content</p>
+</div>
+
+<hr />
+
+<h2>Replies</h2>
+
+@if (Model.Replies.Any())
+{
+    <ul>
+        @foreach (var reply in Model.Replies)
+        {
+            <li>
+                <p>@reply.Content</p>
+                <p>Posted by: @reply.Author</p>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No replies yet.</p>
+}

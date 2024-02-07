@@ -14,7 +14,8 @@ namespace AnonymousForum.Models
 
         public int TopicId { get; set; }
         public Topic Topic { get; set; }
+        public ICollection<Reply> Replies { get; set; }
 
-        
+
     }
 }
