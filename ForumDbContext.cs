@@ -24,7 +24,7 @@ namespace AnonymousForum
 
             
 
-            base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);a
         }
     }
 }

@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 //services to container
 builder.Services.AddControllersWithViews();
+builder.WebHost.UseUrls("https://localhost:7239");
 
 
 builder.Services.AddDbContext<ForumDbContext>(options =>

@@ -36,8 +36,19 @@ namespace AnonymousForum.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(AnonymousForum.Models.Thread thread)
-        {
-            if (ModelState.IsValid)
+        {   //debug to be able to see errors
+            if (!ModelState.IsValid)
+            {
+                foreach (var modelStateEntry in ModelState.Values) 
+                { 
+                    foreach(var error in modelStateEntry.Errors)
+                    {   //message
+                        Console.WriteLine( error.ErrorMessage);
+                    }
+                }
+                return View(thread);
+            }
+            try
             {
                 // Add the new thread to the database
                 _context.Threads.Add(thread);
@@ -46,9 +57,12 @@ namespace AnonymousForum.Controllers
                 // Redirect to the topic view after creating the thread
                 return RedirectToAction("Index", "Thread", new { topicId = thread.TopicId });
             }
-
-            // If the model state is not valid, return the view with validation errors
-            return View(thread);
+            catch (Exception ex)
+            {
+                // Log exception details for debugging
+                Console.WriteLine(ex.Message);
+                return View(thread); // Return the view with the thread model in case of an error
+            }
         }
         //action method to display Details within a thread
         public IActionResult Details(int id)
