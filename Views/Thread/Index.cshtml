@@ -1,6 +1,7 @@
 ﻿@model List<AnonymousForum.Models.Thread>
 
 <h1>Threads</h1>
+<a asp-action="Create" asp-controller="Thread" asp-route-topicId="@ViewBag.TopicId">Create New Thread</a>
 
 @if (Model.Any())
 {
