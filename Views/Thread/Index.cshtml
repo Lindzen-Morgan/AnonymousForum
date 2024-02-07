@@ -2,9 +2,16 @@
 
 <h1>Threads</h1>
 
-<ul>
-    @foreach (var thread in Model)
-    {
-        <li>@thread.Title</li>
-    }
-</ul>
+@if (Model.Any())
+{
+    <ul>
+        @foreach (var thread in Model)
+        {
+            <li>@thread.Title</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No threads found.</p>
+}
