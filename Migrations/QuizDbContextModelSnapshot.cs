@@ -22,7 +22,7 @@ namespace AnonymousForumz.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AnonymousForumz.Choice", b =>
+            modelBuilder.Entity("AnonymousForumz.Models.Choice", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,7 +37,6 @@ namespace AnonymousForumz.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Text")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -55,8 +54,8 @@ namespace AnonymousForumz.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CorrectAnswer")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("IsMultipleChoice")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsVideo")
                         .HasColumnType("bit");
@@ -70,107 +69,6 @@ namespace AnonymousForumz.Migrations
                     b.Property<string>("Text")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TimeLimit")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("QuizId");
-
-                    b.ToTable("Question");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Models.QuestionOption", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("IsCorrect")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("QuestionId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Text")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("QuestionId");
-
-                    b.ToTable("QuestionOption");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Models.Quiz", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CreatorId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Quiz");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Models.UserQuizResult", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CompletedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("QuizId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Score")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("QuizId");
-
-                    b.ToTable("UserQuizResults");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Question", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("IsMultipleChoice")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("MediaUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("QuizId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Text")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int?>("TimeLimit")
                         .HasColumnType("int");
 
@@ -181,7 +79,7 @@ namespace AnonymousForumz.Migrations
                     b.ToTable("Questions");
                 });
 
-            modelBuilder.Entity("AnonymousForumz.Quiz", b =>
+            modelBuilder.Entity("AnonymousForumz.Models.Quiz", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -195,18 +93,43 @@ namespace AnonymousForumz.Migrations
                     b.Property<int>("CreatorId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsAnonymous")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CreatorId");
 
                     b.ToTable("Quizzes");
+                });
+
+            modelBuilder.Entity("AnonymousForumz.Models.UserQuizResult", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("QuizId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuizId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserQuizResults");
                 });
 
             modelBuilder.Entity("AnonymousForumz.User", b =>
@@ -218,25 +141,22 @@ namespace AnonymousForumz.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("AnonymousForumz.Choice", b =>
+            modelBuilder.Entity("AnonymousForumz.Models.Choice", b =>
                 {
-                    b.HasOne("AnonymousForumz.Question", "Question")
+                    b.HasOne("AnonymousForumz.Models.Question", "Question")
                         .WithMany("Choices")
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -256,40 +176,7 @@ namespace AnonymousForumz.Migrations
                     b.Navigation("Quiz");
                 });
 
-            modelBuilder.Entity("AnonymousForumz.Models.QuestionOption", b =>
-                {
-                    b.HasOne("AnonymousForumz.Models.Question", "Question")
-                        .WithMany("Options")
-                        .HasForeignKey("QuestionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Question");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Models.UserQuizResult", b =>
-                {
-                    b.HasOne("AnonymousForumz.Models.Quiz", "Quiz")
-                        .WithMany()
-                        .HasForeignKey("QuizId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Quiz");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Question", b =>
-                {
-                    b.HasOne("AnonymousForumz.Quiz", "Quiz")
-                        .WithMany("Questions")
-                        .HasForeignKey("QuizId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Quiz");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Quiz", b =>
+            modelBuilder.Entity("AnonymousForumz.Models.Quiz", b =>
                 {
                     b.HasOne("AnonymousForumz.User", "Creator")
                         .WithMany("Quizzes")
@@ -300,29 +187,42 @@ namespace AnonymousForumz.Migrations
                     b.Navigation("Creator");
                 });
 
+            modelBuilder.Entity("AnonymousForumz.Models.UserQuizResult", b =>
+                {
+                    b.HasOne("AnonymousForumz.Models.Quiz", "Quiz")
+                        .WithMany("UserQuizResults")
+                        .HasForeignKey("QuizId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AnonymousForumz.User", "User")
+                        .WithMany("UserQuizResults")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Quiz");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("AnonymousForumz.Models.Question", b =>
                 {
-                    b.Navigation("Options");
+                    b.Navigation("Choices");
                 });
 
             modelBuilder.Entity("AnonymousForumz.Models.Quiz", b =>
                 {
                     b.Navigation("Questions");
-                });
 
-            modelBuilder.Entity("AnonymousForumz.Question", b =>
-                {
-                    b.Navigation("Choices");
-                });
-
-            modelBuilder.Entity("AnonymousForumz.Quiz", b =>
-                {
-                    b.Navigation("Questions");
+                    b.Navigation("UserQuizResults");
                 });
 
             modelBuilder.Entity("AnonymousForumz.User", b =>
                 {
                     b.Navigation("Quizzes");
+
+                    b.Navigation("UserQuizResults");
                 });
 #pragma warning restore 612, 618
         }
