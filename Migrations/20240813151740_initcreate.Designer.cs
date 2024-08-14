@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -12,8 +13,17 @@ namespace AnonymousForumz.Migrations
 {
     [DbContext(typeof(QuizDbContext))]
     [Migration("20240813151740_initcreate")]
-    partial class initcreate
+    partial class Initcreate
     {
+        public override bool Equals(object obj)
+        {
+            return obj is Initcreate initcreate &&
+                   EqualityComparer<IModel>.Default.Equals(TargetModel, initcreate.TargetModel) &&
+                   EqualityComparer<IReadOnlyList<MigrationOperation>>.Default.Equals(UpOperations, initcreate.UpOperations) &&
+                   EqualityComparer<IReadOnlyList<MigrationOperation>>.Default.Equals(DownOperations, initcreate.DownOperations) &&
+                   ActiveProvider == initcreate.ActiveProvider;
+        }
+
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -170,6 +180,11 @@ namespace AnonymousForumz.Migrations
                     b.Navigation("Questions");
                 });
 #pragma warning restore 612, 618
+        }
+
+        public override int GetHashCode()
+        {
+            throw new NotImplementedException();
         }
     }
 }

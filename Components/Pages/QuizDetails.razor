@@ -1,0 +1,11 @@
+﻿@page "/quiz-details/{quizId:int}"
+
+<h3>Quiz Details</h3>
+
+<!-- UI for displaying quiz details and allowing the user to take the quiz -->
+@code {
+    [Parameter]
+    public int QuizId { get; set; }
+
+    // Implement logic to fetch and display quiz questions and options based on QuizId
+}

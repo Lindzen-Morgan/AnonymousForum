@@ -1,0 +1,45 @@
+﻿@page "/login"
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
+@inject UserService UserService
+@inject CustomAuthenticationStateProvider AuthenticationStateProvider
+
+<h3>Login</h3>
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Username:</label>
+        <InputText @bind-Value="loginModel.Username" />
+    </div>
+    <div>
+        <label>Password:</label>
+        <InputText @bind-Value="loginModel.Password" type="password" />
+    </div>
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private async Task HandleLogin()
+    {
+        if (await UserService.ValidateUserAsync(loginModel.Username, loginModel.Password))
+        {
+            AuthenticationStateProvider.SetUserAuthenticated(loginModel.Username);
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            // Handle login failure (e.g., incorrect username or password)
+        }
+    }
+
+    public class LoginModel
+    {
+        public string? Username { get; set; }
+        public string? Password { get; set; }
+    }
+}
