@@ -17,7 +17,7 @@
         if (int.TryParse(userId, out int userIdInt))
         {
             myQuizzes = await DbContext.Quizzes
-                .Where(q => q.CreatorId == userIdInt)
+                .Where(q => q.UserId == userIdInt) // Change CreatorId to UserId
                 .Include(q => q.Questions)
                 .ToListAsync();
         }

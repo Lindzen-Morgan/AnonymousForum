@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnonymousForumz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aea492403adeb35571a263175b4fed5de31ba6e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2284af75e849d192d7cd0b3f5921306c4f5aa2cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnonymousForumz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnonymousForumz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

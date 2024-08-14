@@ -3,7 +3,7 @@
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.AspNetCore.Components.Authorization
 @using System.Security.Claims
-@using AnonymousForumz.Models
+@using AnonymousForumz
 @inject QuizDbContext DbContext
 @inject NavigationManager Navigation
 @inject AuthenticationStateProvider AuthenticationStateProvider
@@ -33,7 +33,7 @@
 
             <div class="mt-3">
                 <label>Media (Optional):</label>
-                <InputFile OnChange="@(e => HandleFileSelected(e, Question))" />
+                <InputFile OnChange="@((args) => HandleFileSelectedForQuestion(args, question))" />
             </div>
 
             <div class="mt-3">
@@ -49,7 +49,7 @@
             @if (question.IsMultipleChoice)
             {
                 <div class="mt-3">
-                    <button type="button" @onclick="@(() => AddChoice(question))" class="btn btn-secondary">Add Choice</button>
+                    <button type="button" @onclick="() => AddChoice(question)" class="btn btn-secondary">Add Choice</button>
                     @foreach (var choice in question.Choices)
                     {
                         <div class="choice-section mt-2">
@@ -58,12 +58,11 @@
                                 <label>Correct Answer:</label>
                                 <InputCheckbox @bind-Value="choice.IsCorrect" />
                             </div>
-                            <button type="button" @onclick="@(() => RemoveChoice(question, choice))" class="btn btn-danger mt-2">Remove Choice</button>
+                            <button type="button" @onclick="() => RemoveChoice(question, choice)" class="btn btn-danger mt-2">Remove Choice</button>
                         </div>
                     }
                 </div>
             }
-            <button type="button" @onclick="@(() => RemoveQuestion(question))" class="btn btn-danger mt-3">Remove Question</button>
         </div>
     }
 
@@ -132,5 +131,10 @@
             await file.OpenReadStream(maxAllowedSize: 1024 * 1024 * 15).CopyToAsync(fileStream); // 15MB max file size
             question.MediaUrl = $"/uploads/{file.Name}";
         }
+    }
+
+    private async Task HandleFileSelectedForQuestion(InputFileChangeEventArgs args, AnonymousForumz.Models.Question question)
+    {
+        await HandleFileSelected(args, question);
     }
 }
