@@ -1,0 +1,34 @@
+﻿@page "/my-quizzes"
+@using System.Security.Claims
+@using Microsoft.EntityFrameworkCore
+@using AnonymousForumz.Models
+
+@inject QuizDbContext DbContext
+@inject CustomAuthenticationStateProvider AuthProvider
+
+@code {
+    private List<AnonymousForumz.Models.Quiz> myQuizzes = new List<AnonymousForumz.Models.Quiz>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
+        var userId = authState.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (int.TryParse(userId, out int userIdInt))
+        {
+            myQuizzes = await DbContext.Quizzes
+                .Where(q => q.CreatorId == userIdInt)
+                .Include(q => q.Questions)
+                .ToListAsync();
+        }
+    }
+}
+
+<h3>My Quizzes</h3>
+@foreach (var quiz in myQuizzes)
+{
+    <div>
+        <h4>@quiz.Title</h4>
+        <a href="/quiz/@quiz.Id">View Quiz</a>
+    </div>
+}

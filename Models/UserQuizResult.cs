@@ -1,12 +1,11 @@
-﻿namespace AnonymousForumz.Models
+﻿using AnonymousForumz;
+using AnonymousForumz.Models;
+public class UserQuizResult
 {
-    public class UserQuizResult
-    {
-        public int Id { get; set; }
-        public string? UserId { get; set; }
-        public int QuizId { get; set; }
-        public Quiz? Quiz { get; set; }
-        public int Score { get; set; }
-        public DateTime CompletedOn { get; set; }
-    }
+    public int Id { get; set; }
+    public int UserId { get; set; }
+    public User? User { get; set; }
+    public int QuizId { get; set; }
+    public Quiz? Quiz { get; set; }
+    public int Score { get; set; }
 }

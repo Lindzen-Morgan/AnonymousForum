@@ -1,21 +1,30 @@
 ﻿@page "/register"
-@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+@using AnonymousForumz.Models
 @inject NavigationManager Navigation
 @inject UserService UserService
 
+
 <h3>Register</h3>
 
-<EditForm Model="registerModel" OnValidSubmit="HandleRegister">
+<EditForm Model="registerModel" OnValidSubmit="HandleRegister" FormName="registerForm">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <div>
-        <label>Username:</label>
-        <InputText @bind-Value="registerModel.Username" />
+        <label for="username">Username:</label>
+        <InputText id="username" @bind-Value="registerModel.Username" autocomplete="username" />
+        <ValidationMessage For="@(() => registerModel.Username)" />
     </div>
     <div>
-        <label>Password:</label>
-        <InputText @bind-Value="registerModel.Password" type="password" />
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="registerModel.Password" type="password" autocomplete="new-password" />
+        <ValidationMessage For="@(() => registerModel.Password)" />
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="registerModel.Email" autocomplete="email" />
+        <ValidationMessage For="@(() => registerModel.Email)" />
     </div>
     <button type="submit">Register</button>
 </EditForm>
@@ -25,22 +34,14 @@
 
     private async Task HandleRegister()
     {
-        var userCreated = await UserService.CreateUserAsync(registerModel.Username, registerModel.Password);
+        bool userCreated = await UserService.CreateUserAsync(registerModel.Username!, registerModel.Password!, registerModel.Email!);
         if (userCreated)
         {
             Navigation.NavigateTo("/login");
         }
         else
         {
-            // Handle registration failure (e.g., username already exists)
+            // Handle registration failure, e.g., username already exists
         }
-    }
-
-    public class RegisterModel
-    {
-        [Required]
-        public string? Username { get; set; }
-        [Required]
-        public string? Password { get; set; }
     }
 }

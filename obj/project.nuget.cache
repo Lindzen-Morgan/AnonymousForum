@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pIg/GxRgn8ZXXeYJN64jOOiQbou9//5ccu4f6PJL6Rz+GOkgLdQ4AV1Amf/UWDrBpJaBeBOWMzmdqSIloDi3Jg==",
+  "dgSpecHash": "NEYhF0PS49xznrNrKzcsd47L0nE3DIDXeRYGh+vU2BcmJnhTRP+SeeI7fNjx/PWSJzjfSVVKLvrv/hG6e6K7aQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\AnonymousForumz.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\morga\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\morga\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\morga\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\morga\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\morga\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\morga\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

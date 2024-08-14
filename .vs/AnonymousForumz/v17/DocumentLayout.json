@@ -3,64 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\myquizzes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\myquizzes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\quizcreation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\quizcreation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\quizdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:quizdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\migrations\\20240813151740_initcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:migrations\\20240813151740_initcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\userquizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\userquizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\migrations\\20240813151740_initcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:migrations\\20240813151740_initcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\quizdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\quizdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\quizcreation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\quizcreation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\quizresults.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,24 +47,112 @@
       "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\quizlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\quizdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\quizdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\controllers\\questionoptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:controllers\\questionoptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\questionoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\questionoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\userquizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\userquizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\controllers\\userquizresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:controllers\\userquizresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\quizdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:quizdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\anonymousforumz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:anonymousforumz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\migrations\\20240814143303_adduserandquizmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:migrations\\20240814143303_adduserandquizmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\migrations\\20240813151740_initcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:migrations\\20240813151740_initcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|c:\\users\\morga\\onedrive\\skrivbord\\anonymousforumz\\anonymousforumz\\migrations\\20240813151740_initcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0CA816-3464-47E3-A955-9F4BFE28B849}|AnonymousForumz.csproj|solutionrelative:migrations\\20240813151740_initcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,231 +162,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\UserService.cs",
-              "RelativeDocumentMoniker": "UserService.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\UserService.cs",
-              "RelativeToolTip": "UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T13:15:52.079Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Register.razor",
-              "RelativeToolTip": "Components\\Pages\\Register.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T13:13:27.221Z",
+              "Title": "Choice.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Choice.cs",
+              "RelativeDocumentMoniker": "Models\\Choice.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Choice.cs",
+              "RelativeToolTip": "Models\\Choice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:26:39.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:56:22.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T10:00:41.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Login.razor",
-              "RelativeToolTip": "Components\\Pages\\Login.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T10:16:56.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Logout.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Logout.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Logout.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Logout.razor",
-              "RelativeToolTip": "Components\\Pages\\Logout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T10:17:06.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\App.razor",
-              "RelativeDocumentMoniker": "Components\\App.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\App.razor",
-              "RelativeToolTip": "Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T09:54:51.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\CustomAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "CustomAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\CustomAuthenticationStateProvider.cs",
-              "RelativeToolTip": "CustomAuthenticationStateProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T10:31:24.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T10:02:50.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Routes.razor",
-              "RelativeToolTip": "Components\\Routes.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T13:11:02.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QuizDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\QuizDBContext.cs",
-              "RelativeDocumentMoniker": "QuizDBContext.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\QuizDBContext.cs",
-              "RelativeToolTip": "QuizDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:55:27.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240813151740_initcreate.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240813151740_initcreate.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.cs",
-              "RelativeToolTip": "Migrations\\20240813151740_initcreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T15:17:40.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240813151740_initcreate.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.Designer.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240813151740_initcreate.Designer.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.Designer.cs",
-              "RelativeToolTip": "Migrations\\20240813151740_initcreate.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T10:24:21.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "QuizDetails.razor",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizDetails.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\QuizDetails.razor",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizDetails.razor",
-              "RelativeToolTip": "Components\\Pages\\QuizDetails.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T09:53:07.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "QuizCreation.razor",
               "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizCreation.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\QuizCreation.razor",
               "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizCreation.razor",
               "RelativeToolTip": "Components\\Pages\\QuizCreation.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAewCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-14T09:48:59.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T09:54:51.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyQuizzes.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\MyQuizzes.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\MyQuizzes.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\MyQuizzes.razor",
+              "RelativeToolTip": "Components\\Pages\\MyQuizzes.razor",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAewBMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T13:48:21.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\QuizDBContext.cs",
+              "RelativeDocumentMoniker": "QuizDBContext.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\QuizDBContext.cs",
+              "RelativeToolTip": "QuizDBContext.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:55:27.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "Models\\Quiz.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Quiz.cs",
+              "RelativeToolTip": "Models\\Quiz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:57:10.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserQuizResult.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\UserQuizResult.cs",
+              "RelativeDocumentMoniker": "Models\\UserQuizResult.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\UserQuizResult.cs",
+              "RelativeToolTip": "Models\\UserQuizResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:57:47.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "Components\\Pages\\Register.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T13:13:27.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Models\\Question.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Question.cs",
+              "RelativeToolTip": "Models\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:57:20.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "QuizResults.razor",
               "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizResults.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\QuizResults.razor",
               "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizResults.razor",
               "RelativeToolTip": "Components\\Pages\\QuizResults.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-14T09:53:15.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "QuizList.razor",
               "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizList.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\QuizList.razor",
               "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizList.razor",
               "RelativeToolTip": "Components\\Pages\\QuizList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-14T09:52:58.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuizDetails.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizDetails.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\QuizDetails.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\QuizDetails.razor",
+              "RelativeToolTip": "Components\\Pages\\QuizDetails.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T09:53:07.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logout.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Logout.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Logout.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Logout.razor",
+              "RelativeToolTip": "Components\\Pages\\Logout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:17:06.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:16:56.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T15:24:07.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "Controllers\\QuizController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:16:24.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuestionOptionsController.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\QuestionOptionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuestionOptionsController.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\QuestionOptionsController.cs",
+              "RelativeToolTip": "Controllers\\QuestionOptionsController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:27:24.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "Controllers\\QuestionController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:16:46.983Z",
               "EditorCaption": ""
             },
             {
@@ -333,7 +406,7 @@
               "RelativeDocumentMoniker": "Models\\QuestionOption.cs",
               "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\QuestionOption.cs",
               "RelativeToolTip": "Models\\QuestionOption.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T14:57:35.712Z",
               "EditorCaption": ""
@@ -341,19 +414,140 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Quiz.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Quiz.cs",
-              "RelativeDocumentMoniker": "Models\\Quiz.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Quiz.cs",
-              "RelativeToolTip": "Models\\Quiz.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:57:10.343Z",
+              "WhenOpened": "2024-08-14T17:13:39.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:06:33.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:05:58.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:15:56.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserQuizResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\UserQuizResultsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserQuizResultsController.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Controllers\\UserQuizResultsController.cs",
+              "RelativeToolTip": "Controllers\\UserQuizResultsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:28:24.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:56:22.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\UserService.cs",
+              "RelativeDocumentMoniker": "UserService.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\UserService.cs",
+              "RelativeToolTip": "UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:15:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\CustomAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\CustomAuthenticationStateProvider.cs",
+              "RelativeToolTip": "CustomAuthenticationStateProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:31:24.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QuizDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\QuizDbContextFactory.cs",
+              "RelativeDocumentMoniker": "QuizDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\QuizDbContextFactory.cs",
+              "RelativeToolTip": "QuizDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T14:32:11.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AnonymousForumz",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\AnonymousForumz.csproj",
+              "RelativeDocumentMoniker": "AnonymousForumz.csproj",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\AnonymousForumz.csproj",
+              "RelativeToolTip": "AnonymousForumz.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-14T18:04:25.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -366,28 +560,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Question.cs",
-              "RelativeDocumentMoniker": "Models\\Question.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\Question.cs",
-              "RelativeToolTip": "Models\\Question.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:57:20.921Z",
+              "DocumentIndex": 29,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Components\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Components\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T15:50:08.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserQuizResult.cs",
-              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\UserQuizResult.cs",
-              "RelativeDocumentMoniker": "Models\\UserQuizResult.cs",
-              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Models\\UserQuizResult.cs",
-              "RelativeToolTip": "Models\\UserQuizResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:02:50.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T15:41:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T10:00:41.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T15:42:26.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240814143303_AddUserAndQuizModels.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240814143303_AddUserAndQuizModels.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240814143303_AddUserAndQuizModels.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240814143303_AddUserAndQuizModels.cs",
+              "RelativeToolTip": "Migrations\\20240814143303_AddUserAndQuizModels.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAmwCoBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:57:47.172Z",
+              "WhenOpened": "2024-08-14T14:34:04.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240813151740_initcreate.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240813151740_initcreate.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.cs",
+              "RelativeToolTip": "Migrations\\20240813151740_initcreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:17:40.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240813151740_initcreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240813151740_initcreate.Designer.cs",
+              "ToolTip": "C:\\Users\\morga\\OneDrive\\Skrivbord\\AnonymousForumz\\AnonymousForumz\\Migrations\\20240813151740_initcreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240813151740_initcreate.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:24:21.655Z",
               "EditorCaption": ""
             }
           ]

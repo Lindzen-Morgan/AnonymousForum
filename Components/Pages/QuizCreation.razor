@@ -1,11 +1,136 @@
 ﻿@page "/quiz-creation"
 @using Microsoft.AspNetCore.Authorization
-@attribute [Authorize(Policy = "MustBeLoggedIn")]
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims
+@using AnonymousForumz.Models
+@inject QuizDbContext DbContext
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthenticationStateProvider
 
+@attribute [Authorize]
 
 <h3>Create a New Quiz</h3>
 
-<!-- Quiz creation form and logic go here -->
+<EditForm Model="@newQuiz" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Quiz Title:</label>
+        <InputText @bind-Value="newQuiz.Title" class="form-control" />
+    </div>
+
+    <button type="button" @onclick="AddQuestion" class="btn btn-primary mt-3">Add Question</button>
+
+    @foreach (var question in newQuiz.Questions)
+    {
+        <div class="question-section mt-4 p-3 border">
+            <div>
+                <label>Question Text:</label>
+                <InputText @bind-Value="question.Text" class="form-control" />
+            </div>
+
+            <div class="mt-3">
+                <label>Media (Optional):</label>
+                <InputFile OnChange="@(e => HandleFileSelected(e, Question))" />
+            </div>
+
+            <div class="mt-3">
+                <label>Time Limit (Seconds, Optional):</label>
+                <InputNumber @bind-Value="question.TimeLimit" class="form-control" />
+            </div>
+
+            <div class="mt-3">
+                <label>Is Multiple Choice:</label>
+                <InputCheckbox @bind-Value="question.IsMultipleChoice" />
+            </div>
+
+            @if (question.IsMultipleChoice)
+            {
+                <div class="mt-3">
+                    <button type="button" @onclick="@(() => AddChoice(question))" class="btn btn-secondary">Add Choice</button>
+                    @foreach (var choice in question.Choices)
+                    {
+                        <div class="choice-section mt-2">
+                            <InputText @bind-Value="choice.Text" placeholder="Choice Text" class="form-control" />
+                            <div class="mt-2">
+                                <label>Correct Answer:</label>
+                                <InputCheckbox @bind-Value="choice.IsCorrect" />
+                            </div>
+                            <button type="button" @onclick="@(() => RemoveChoice(question, choice))" class="btn btn-danger mt-2">Remove Choice</button>
+                        </div>
+                    }
+                </div>
+            }
+            <button type="button" @onclick="@(() => RemoveQuestion(question))" class="btn btn-danger mt-3">Remove Question</button>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-success mt-4">Save Quiz</button>
+</EditForm>
+
 @code {
-    // Quiz creation logic
+    private AnonymousForumz.Models.Quiz newQuiz = new AnonymousForumz.Models.Quiz { Questions = new List<AnonymousForumz.Models.Question>() };
+
+    private async Task HandleValidSubmit()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var userId = authState.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (int.TryParse(userId, out int creatorId))
+        {
+            newQuiz.CreatorId = creatorId;
+            newQuiz.CreationDate = DateTime.UtcNow;
+
+            DbContext.Quizzes.Add(newQuiz);
+            await DbContext.SaveChangesAsync();
+
+            Navigation.NavigateTo("/my-quizzes");
+        }
+    }
+
+    private void AddQuestion()
+    {
+        if (newQuiz.Questions == null)
+        {
+            newQuiz.Questions = new List<AnonymousForumz.Models.Question>();
+        }
+        newQuiz.Questions.Add(new AnonymousForumz.Models.Question { Choices = new List<AnonymousForumz.Models.Choice>() });
+    }
+
+    private void RemoveQuestion(AnonymousForumz.Models.Question question)
+    {
+        newQuiz.Questions?.Remove(question);
+    }
+
+    private void AddChoice(AnonymousForumz.Models.Question question)
+    {
+        if (question.Choices == null)
+        {
+            question.Choices = new List<AnonymousForumz.Models.Choice>();
+        }
+        question.Choices.Add(new AnonymousForumz.Models.Choice());
+    }
+
+    private void RemoveChoice(AnonymousForumz.Models.Question question, AnonymousForumz.Models.Choice choice)
+    {
+        question.Choices?.Remove(choice);
+    }
+
+    private async Task HandleFileSelected(InputFileChangeEventArgs e, AnonymousForumz.Models.Question question)
+    {
+        var file = e.File;
+        if (file != null)
+        {
+            var filePath = Path.Combine("wwwroot/uploads", file.Name);
+
+            // Ensure the directory exists
+            Directory.CreateDirectory(Path.Combine("wwwroot", "uploads"));
+
+            using var fileStream = new FileStream(filePath, FileMode.Create);
+            await file.OpenReadStream(maxAllowedSize: 1024 * 1024 * 15).CopyToAsync(fileStream); // 15MB max file size
+            question.MediaUrl = $"/uploads/{file.Name}";
+        }
+    }
 }

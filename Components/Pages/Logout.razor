@@ -2,13 +2,14 @@
 @using Microsoft.AspNetCore.Components.Authorization
 @inject NavigationManager Navigation
 @inject CustomAuthenticationStateProvider AuthenticationStateProvider
+@using AnonymousForumz.Models
 
 <h3>Logging out...</h3>
 
 @code {
     protected override async Task OnInitializedAsync()
     {
-        AuthenticationStateProvider.SetUserLoggedOut();
+        await AuthenticationStateProvider.SetUserLoggedOut();
         Navigation.NavigateTo("/login");
     }
 }
